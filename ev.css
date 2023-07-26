@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap');
+
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;	
+	background-color: powderblue;	
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+input,button,textarea{
+	border: none;
+	outline: none;
+}
+nav{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	left: 0;
+	width: 100%;
+	z-index: 1;
+}
+nav ul{
+	display: flex;
+}
+nav ul li a{
+	height: 40px;
+	line-height: 43px;
+	margin: 3px;
+	padding: 0 22px;
+	display: flex;
+	font-size: 0.8rem;
+	text-decoration: uppercase;
+	font-weight: 700;
+	letter-spacing: 1px;
+	border-radius: 3px;
+	transition: 0.6s ease-in-out;
+	color: #000000;
+}
+nav ul li a:hover{
+	background-color: #fc6f41;
+	color: #fff;
+	box-shadow: 5px 10px 30px rgba(252, 59, 0, 0.397);
+}
+.active{
+	background-color: #fc6f41;
+	color: #fff;
+	box-shadow: 5px 10px 30px rgba(252, 59, 0, 0.397);
+
+}
+.main{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-image: url(graduant.jpg);
+}
+.main-heading{
+	width: 500px;
+	position: relative;
+	left: 80%;
+	top: 20%;
+	transform: translate(-80%,-20%);
+}
+.main-heading h1{
+	font-size: 45px;
+	margin: 0px;
+	letter-spacing: 3px;
+	color: #ffff;
+}

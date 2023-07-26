@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap');
+
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;	
+	background-color: powderblue;
+	
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+input,button,textarea{
+	border: none;
+	outline: none;
+}
+nav{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	left: 0;
+	width: 100%;
+	z-index: 1;
+}
+nav ul{
+	display: flex;
+}
+nav ul li a{
+	height: 40px;
+	line-height: 43px;
+	margin: 3px;
+	padding: 0 22px;
+	display: flex;
+	font-size: 0.8rem;
+	text-decoration: uppercase;
+	font-weight: 700;
+	letter-spacing: 1px;
+	border-radius: 3px;
+	transition: 0.6s ease-in-out;
+	color: #000000;
+}
+nav ul li a:hover{
+	background-color: #fc6f41;
+	color: #fff;
+	box-shadow: 5px 10px 30px rgba(252, 59, 0, 0.397);
+}
+.active{
+	background-color: #fc6f41;
+	color: #fff;
+	box-shadow: 5px 10px 30px rgba(252, 59, 0, 0.397);
+}
+
+.main{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-image: url(alvin4.jpg);
+	}
+.about-container{
+	width: 500px;
+	font-size: 13.5px;
+	position: relative;
+	left: 75%;
+	top: 20%;
+	transform: translate(-80%,-20%);
+}
+.about-container h1{
+	font-size: 45px;
+	margin: 0px;
+	letter-spacing: 3px;
+	color: #ffff;
+</style>
+	
+</head>
+<body>
+	<section class="main">
+		<nav>
+			
+			<ul class="menu">
+			<li><a href="home.html" >Home</a></li>
+			<li><a href="aboutus.html" class="active">About Us</a></li>
+			<li><a href="form.html">Register</a></li>
+			
+		</ul>
+		</nav>
+		<div class="about-container">
+			<h2 style="color:darkblue;">About Evmak</h2>			
+			<p>EvMak is a Fintech company that leverages technology to empower other business to thrive providing businesses with business tools such as Invoice creation, payment links, Insurance and services, Business enablers such as Domain registration,Notificarion service, website hosting and much more.</p>
+
+			<h2 style="color:darkblue;">PT applicant Requirements</h2>
+			<p>The following are the company's specific requirenments for practical training and ensure they meet all the criteria before applying</p>
+			<ol>
+				<li>Educational background</li>
+				<li>Skills and Qualifications</li>
+				<li>Motivation and Interests</li>
+
+			</ol>
+
+			<h2 style="color:darkblue;">Outcomes for the knowledge given</h2>
+			<p>After completing a practical training at EvMak company, a student can expect to gain various outcomes and benefits. These outcomes can have a significant impact on the student's personal and proffesional growth.Some pssible outcomes include;</p>
+			<ol>
+				<li>Hands-on experience</li>
+				<li>Technical skills development</li>
+				<li>Collaboration and team work</li>
+				<li>Networking opportunities</li>
+				<li>Project portfolio</li>
+			</ol>
+		</div>
+
+</body>
+</html>
